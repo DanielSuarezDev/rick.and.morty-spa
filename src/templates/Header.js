@@ -3,7 +3,7 @@ const Header = () => {
       <div class="Header-main">
       <div class="Header-logo">
         <h1>
-          <a href="https://danielsuarezdev.github.io/rick.and.morty-spa/">
+          <a href="/rick.and.morty-spa">
             Rick And Morty
           </a>
         </h1>
