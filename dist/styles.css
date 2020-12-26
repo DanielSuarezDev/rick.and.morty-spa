@@ -19,7 +19,7 @@ body {
   color: yellow;
 }
 .main {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* width: 1100px; */
   padding: 0 5px;
   margin: 0 auto;
@@ -76,5 +76,9 @@ body {
 @media screen and (min-width: 767px) {
   .Characters {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .Character-item img {
+    width: 200px;
+    height: 200px;
   }
 }
