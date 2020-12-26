@@ -11,6 +11,13 @@ html {
 body {
   background: #242526;
 }
+.Header-logo h1 {
+  font-size: 2.6rem;
+}
+.Header-nav a {
+  font-size: 1.6rem;
+  color: yellow;
+}
 .main {
   border: 1px solid red;
   /* width: 1100px; */
@@ -59,4 +66,15 @@ body {
 .Characters-card h3 {
   text-align: left;
   font-size: 1.6rem;
+}
+.Footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 767px) {
+  .Characters {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
