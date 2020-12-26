@@ -1,0 +1,26 @@
+{
+  "name": "spa-rickandmorty",
+  "version": "1.0.0",
+  "description": "spa rick and morty",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "spa",
+    "javascripVanilla"
+  ],
+  "author": "Daniel Suarez Dev",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
